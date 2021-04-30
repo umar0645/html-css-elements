@@ -1,0 +1,141 @@
+.wrapper{
+    width: 80%;
+    height: 700px;
+    margin: 20px auto;
+    border-radius: 30px;
+    background-color: #f9d9c2;
+    padding-top: 30px;
+}
+.keys{
+    width: 96%;
+    height: 380px;
+    margin: auto;
+    border: 3px solid #bd9d86;
+    border-radius: 10px;
+    padding: 10px 4px 20px;
+}
+.row{
+    margin: auto;
+    margin-bottom: 5px;
+}
+.row1 button{
+    width: 6%;
+    height: 32px;
+}
+.row2,.row3,.row4,.row5,.row6{
+    margin: 5px auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.number_keys,.row3_alphsymbols{
+    width: 90%;
+}
+.row4_alphsymbols{
+    width: 78%;
+}
+.row5_alphsymbols{
+    width: 70%;
+}
+.number_keys button,.row3_alphsymbols button{
+    width: 6.4%;
+    height: 60px;
+    font-size: 15px;
+}
+.row4_alphsymbols button{
+    width: 7.6%;
+    height: 60px;
+    font-size: 15px;
+}
+.row5_alphsymbols button{
+    width: 8.3%;
+    height: 60px;
+    font-size: 15px;
+}
+.delete_key,.tab_key{
+    width: 10%;
+}
+.shift_left_key,.shift_right_key{
+    width: 15%;
+}
+.caps_key,.return_key{
+    width: 11%;
+}
+.delete_key button,.tab_key button{
+    width: 92%;
+    height: 60px;
+    font-size: 15px;
+}
+.caps_key button,.return_key button{
+    width: 94%;
+    height: 60px;
+    font-size: 15px;
+}
+.shift_left_key button,.shift_right_key button{
+    width: 94%;
+    height: 60px;
+    font-size: 15px;
+}
+.row6_left_keys{
+    width: 79%;
+}
+.fn_key,.control_key,.option_key{
+    width: 6%;
+    height: 67px;
+    font-size: 14px;
+    text-align: left;
+}
+.command_key{
+    width: 9%;
+    height: 67px;
+    font-size: 15px;
+}
+.space_key{
+    width: 47%;
+    height: 67px;
+}
+.arrow_keys{
+    width: 21%;
+    display: inline-flex;
+    position: relative;
+}
+.arrow_keys button{
+    height: 32px;
+}
+.left_arrow,.up_down_arrows,.right_arrow{
+    width: 33%;
+}
+.left_arrow button{
+    width: 26%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.up_down_arrows{
+    margin-top: 4px;
+}
+.up_down_arrows button{
+    width: 95%;
+    margin-top: 0;
+}
+.right_arrow button{
+    width: 26%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.mousepad{
+    width: 35%;
+    height: 250px;
+    margin: 10px auto;
+    border: 2px solid #d3b39c;
+    border-radius: 10px;
+}
+button{
+    background-color: #202126;
+    border: none;
+    border-radius: 5px;
+    color: #a0a1a5;
+    margin-left: 5px;
+    margin-right: 5px;
+}
