@@ -1,0 +1,119 @@
+.imac_wrapper{
+    width: 40%;
+    margin: 50px auto;
+}
+.screen_wrapper{
+    width: 90%;
+    height: 390px;
+    background-color: #cccdd0;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.cam_lcd{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #020202;
+    height: 345px;
+}
+.cam_area{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    }
+.cam_top{
+    height: 1px;
+}
+.cam{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #37383c;
+    margin: 10px auto;
+}
+.lcd{
+    width: 90%;
+    height: 290px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-image: url(big_sur-wallpaper.jpg);
+    background-size: cover;
+}
+.top_foot{
+    border-bottom: 90px solid #ececee;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    height: 0;
+    width: 30%;
+    margin: 0 auto;
+}
+.center_foot{
+    border-bottom: 5px solid #797b7a;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    height: 0;
+    width: 35%;
+    margin: 0 auto;
+}
+.bottom_foot{
+    border-bottom: 16px solid #adb2b7;
+    border-left: 32px solid transparent;
+    border-right: 32px solid transparent;
+    height: 0;
+    width: 36%;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.apple_area{
+    /* width: 60px;
+    height: 60px; */
+    margin-top: 5px;
+}
+.apple {
+    background: #000;
+    background: linear-gradient(#000, #000, #000);
+    width: 30px;
+    height: 28px;
+    /* position: absolute; */
+    border-radius: 35% 35% 41% 41% / 42% 42% 75% 75%;
+    margin: 0 auto;
+  }
+  .apple_top{
+    width: 10px;
+    height: 10px;
+    margin: -2px auto 0;
+    background-color: #cccdd0;
+    border-radius: 50%;
+  }
+  .apple_bottom{
+    width: 10px;
+    height: 10px;
+    margin: -2px auto 0;
+    background-color: #cccdd0;
+    border-radius: 50%;
+  }
+  .apple:before {
+    background: #000;
+    content: "";
+    width: 6px;
+    height: 8px;
+    position: absolute;
+    margin: -7px 0 0 14px;
+    border-radius: 100px 0;
+    z-index: 5;
+  }
+  
+  /* .apple:after {
+    background: #F5FFFA;
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 95px 0 0 126px;
+    border-radius: 50%;
+    transform: rotate(-53deg);
+    z-index: 4;
+    box-shadow: -127px -109.5px 0 #cccdd0, -118px -107px 0 #cccdd0, -115.5px -102.5px 0 #cccdd0, -105.5px -109.5px 0 #cccdd0, -105px -109.5px 0 #cccdd0, -129px 166px 0 #cccdd0, -107.5px 166px 0 #CCCDD0, -119px 161px 0 #CCCDD0;
+  }
+   */
+  
